@@ -5,3 +5,12 @@
   align-items: center;
   min-height: 100%;
 }
+
+img {
+  width: 60px;
+  height: auto;
+}
+
+#LogoName {
+  font-size: 200%;
+}
