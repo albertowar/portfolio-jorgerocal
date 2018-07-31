@@ -16,7 +16,7 @@ class SocialButton extends React.Component {
     return (
       <div className='SocialButtonContainer'>
         <a href={this.props.link}>
-          <FontAwesomeIcon icon={['fab', this.props.icon]} size='2x' style={ iconStyle } />
+          <FontAwesomeIcon icon={['fab', this.props.icon]} size={this.props.size ? this.props.size : '1x'} style={ iconStyle } />
         </a>
       </div>
     );

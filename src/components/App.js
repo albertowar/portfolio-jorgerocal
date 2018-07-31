@@ -1,16 +1,21 @@
 import React, { Component } from 'react';
 import BrandingBar from './BrandingBar';
+import Footer from './Footer';
+import Introduction from './Introduction';
 import '../styles/App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="AppContainer">
         <BrandingBar />
-        <hr />
         <p>
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <div className='InfoContainer'>
+          <Introduction />
+        </div>
+        <Footer />
       </div>
     );
   }

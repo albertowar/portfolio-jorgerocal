@@ -8,10 +8,13 @@ class BrandingBar extends Component {
   render() {
     return (
       <div className='BrandingBarContainer'>
-        <Logo />
-        <MediaQuery query="(min-width: 800px)">
-          <SocialNetworks />
-        </MediaQuery>
+        <div className='BrandingBar'>
+          <Logo />
+          <MediaQuery query="(min-width: 800px)">
+            <SocialNetworks />
+          </MediaQuery>
+        </div>
+        <hr />
       </div>
     );
   }

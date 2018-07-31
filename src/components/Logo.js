@@ -5,7 +5,7 @@ class Logo extends Component {
   render() {
     return (
       <div className='LogoContainer'>
-        <h1>JORGE ROCAL</h1>
+        <p>JORGE<b>ROCAL</b></p>
       </div>
     );
   }

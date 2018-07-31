@@ -1,6 +1,15 @@
+hr {
+  color: black;
+  background-color: black;
+  height: 2px;
+}
+
 .BrandingBarContainer {
+  height: 70px;
+}
+
+.BrandingBar {
   display: flex;
   flex-direction: row;
-  height: 70px;
   justify-content: center;
 }
