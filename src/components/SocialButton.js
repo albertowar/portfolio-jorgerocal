@@ -1,8 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import '../styles/SocialButton.css';
-
 class SocialButton extends React.Component {
   render() {
     const iconStyle = {

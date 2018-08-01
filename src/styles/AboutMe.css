@@ -1,0 +1,24 @@
+.AboutMeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.AboutMe {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  max-width: 900px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.ProfileImage {
+  border-radius: 50%;
+  border: 5px solid black;
+  width: 20%;
+  height: 20%;
+  margin: 10px 0px 0px 30px
+}

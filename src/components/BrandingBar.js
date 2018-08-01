@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
 import Logo from './Logo';
-import SocialNetworks from './SocialNetworks';
+import NavigationBar from './NavigationBar';
 import '../styles/BrandingBar.css';
 
 class BrandingBar extends Component {
@@ -9,10 +9,18 @@ class BrandingBar extends Component {
     return (
       <div className='BrandingBarContainer'>
         <div className='BrandingBar'>
-          <Logo />
+          {
+            /*
+            <Logo />
+            <MediaQuery query="(min-width: 800px)">
+              <SocialNetworks />
+            </MediaQuery>
+            */
+          }
           <MediaQuery query="(min-width: 800px)">
-            <SocialNetworks />
+            <Logo />
           </MediaQuery>
+          <NavigationBar />
         </div>
         <hr />
       </div>
