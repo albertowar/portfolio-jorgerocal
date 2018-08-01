@@ -5,7 +5,7 @@ import Footer from './Footer';
 import Introduction from './Introduction';
 import AboutMe from './AboutMe';
 import MyInterestList from './MyInterestList';
-import Projects from './Projects';
+import ProjectList from './ProjectList';
 import Contact from './Contact';
 
 import '../styles/App.css';
@@ -19,7 +19,7 @@ class App extends Component {
           <Introduction />
           <AboutMe />
           <MyInterestList />
-          <Projects />
+          <ProjectList />
           <Contact />
         </div>
         <Footer />
