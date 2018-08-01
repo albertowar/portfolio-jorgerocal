@@ -1,15 +1,18 @@
 hr {
   color: black;
   background-color: black;
-  height: 2px;
+  width: 100%;
 }
 
 .BrandingBarContainer {
-  height: 120px;
+  display: flex;
+  flex-direction: column;
+  height: 80px;
 }
 
 .BrandingBar {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-content: center;
 }
