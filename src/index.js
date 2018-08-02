@@ -12,5 +12,3 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 library.add(fab);
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
-registerServiceWorker();

@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
 
-import BrandingBar from './desktop/components/BrandingBar';
-import Footer from './desktop/components/Footer';
-import Introduction from './desktop/components/Introduction';
-import AboutMe from './desktop/components/AboutMe';
-import MyInterestList from './desktop/components/MyInterestList';
-import ProjectList from './desktop/components/ProjectList';
-import Contact from './desktop/components/Contact';
+import BrandingBar from './components/BrandingBar';
+import Footer from './components/Footer';
+import Introduction from './components/Introduction';
+import AboutMe from './components/AboutMe';
+import MyInterestList from './components/MyInterestList';
+import ProjectList from './components/ProjectList';
+import Contact from './components/Contact';
 
-import './desktop/styles/App.css';
+import './styles/App.css';
 
 class App extends Component {
   render() {

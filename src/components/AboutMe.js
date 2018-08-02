@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import SectionHeader from './SectionHeader';
-import ProfileImage from '../../resources/profile.jpg';
+import ProfileImage from '../resources/profile.jpg';
 import '../styles/AboutMe.css';
 
 class AboutMe extends Component {

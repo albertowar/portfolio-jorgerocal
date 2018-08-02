@@ -4,12 +4,12 @@ import Project from './Project';
 
 import '../styles/ProjectList.css';
 
-import LagunillasImage1 from '../../resources/lagunillas_1.jpg';
-import LagunillasImage2 from '../../resources/lagunillas_2.jpg';
-import LagunillasHouseImage1 from '../../resources/lagunillas_house_1.jpg';
-import LagunillasHouseImage2 from '../../resources/lagunillas_house_2.jpg';
-import CiremImage1 from '../../resources/cirem_1.jpg';
-import CiremImage2 from '../../resources/cirem_2.jpg';
+import LagunillasImage1 from '../resources/lagunillas_1.jpg';
+import LagunillasImage2 from '../resources/lagunillas_2.jpg';
+import LagunillasHouseImage1 from '../resources/lagunillas_house_1.jpg';
+import LagunillasHouseImage2 from '../resources/lagunillas_house_2.jpg';
+import CiremImage1 from '../resources/cirem_1.jpg';
+import CiremImage2 from '../resources/cirem_2.jpg';
 
 class ProjectList extends Component {
   render() {

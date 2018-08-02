@@ -9,7 +9,7 @@
 
 .IntroductionImage {
   background-size: cover;
-  background-image: url('../../resources/background.jpg');
+  background-image: url('../resources/background.jpg');
   filter: blur(2px);
   z-index: -1;
   position: absolute;
