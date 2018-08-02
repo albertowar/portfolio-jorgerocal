@@ -5,11 +5,11 @@ import '../styles/Footer.css';
 class Footer extends Component {
   render() {
     return (
-      <div>
+      <div className='FooterContainer'>
         <hr />
-          <div className='Footer'>
-            <SocialNetworks />
-          </div>
+        <div className='Footer'>
+          <SocialNetworks />
+        </div>
       </div>
     );
   }

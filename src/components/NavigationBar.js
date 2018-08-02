@@ -6,11 +6,13 @@ class NavigationBar extends Component {
   render() {
     return (
       <div className='NavigationBarContainer'>
-        <Scrollchor to="intro" className="NavigationLink">HOME</Scrollchor>
-        <Scrollchor to="about" className="NavigationLink">SOBRE MÍ</Scrollchor>
-        <Scrollchor to="interest" className="NavigationLink">MIS INTERESES</Scrollchor>
-        <Scrollchor to="projects" className="NavigationLink">PROYECTOS</Scrollchor>
-        <Scrollchor to="contact" className="NavigationLink">CONTACTO</Scrollchor>
+        <nav>
+          <Scrollchor to="intro" className="NavigationLink">HOME</Scrollchor>
+          <Scrollchor to="about" className="NavigationLink">SOBRE MÍ</Scrollchor>
+          <Scrollchor to="interest" className="NavigationLink">MIS INTERESES</Scrollchor>
+          <Scrollchor to="projects" className="NavigationLink">PROYECTOS</Scrollchor>
+          <Scrollchor to="contact" className="NavigationLink">CONTACTO</Scrollchor>
+        </nav>
       </div>
     );
   }

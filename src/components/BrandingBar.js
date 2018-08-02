@@ -7,22 +7,16 @@ import '../styles/BrandingBar.css';
 class BrandingBar extends Component {
   render() {
     return (
-      <div className='BrandingBarContainer'>
-        <div className='BrandingBar'>
-          {
-            /*
-            <Logo />
+      <div className='StickyBrandingBarContainer'>
+        <div className='BrandingBarContainer'>
+          <div className='BrandingBar'>
             <MediaQuery query="(min-width: 800px)">
-              <SocialNetworks />
+              <Logo />
             </MediaQuery>
-            */
-          }
-          <MediaQuery query="(min-width: 800px)">
-            <Logo />
-          </MediaQuery>
-          <NavigationBar />
+            <NavigationBar />
+          </div>
+          <hr />
         </div>
-        <hr />
       </div>
     );
   }

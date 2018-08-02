@@ -2,12 +2,24 @@ hr {
   color: black;
   background-color: black;
   width: 100%;
+  margin: 0px
+}
+
+.StickyBrandingBarContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100vw;
+  height: 80px;
+  z-index: 1030;
+  background-color: white;
 }
 
 .BrandingBarContainer {
   display: flex;
   flex-direction: column;
-  height: 80px;
+  height: 100%;
 }
 
 .BrandingBar {

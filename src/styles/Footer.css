@@ -4,6 +4,14 @@ hr {
   height: 2px;
 }
 
+.FooterContainer {
+  position: fixed;
+  bottom: 0;
+  z-index: 1030;
+  background-color: white;
+  width: 100%;
+}
+
 .Footer {
   display: flex;
   justify-content: center;

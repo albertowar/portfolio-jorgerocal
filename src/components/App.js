@@ -16,12 +16,12 @@ class App extends Component {
       <div className="AppContainer">
         <BrandingBar />
         <div className='InfoContainer'>
-          <Introduction />
-          <AboutMe />
-          <MyInterestList />
-          <ProjectList />
-          <Contact />
-        </div>
+            <Introduction />
+            <AboutMe />
+            <MyInterestList />
+            <ProjectList />
+            <Contact />
+          </div>
         <Footer />
       </div>
     );

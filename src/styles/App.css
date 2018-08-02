@@ -3,9 +3,11 @@ html {
 }
 
 body {
-  position: relative;
-  height: auto;
-  min-height: 100% !important;
+  height: 100%;
+  margin: 0px;  /*removes default style*/
+  display: flex;  /*enables flex content for its children*/
+  justify-content: center;
+  flex-direction: column;
 }
 
 .AppContainer {
@@ -18,4 +20,5 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 100px;
 }
