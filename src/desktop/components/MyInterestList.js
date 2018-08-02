@@ -4,13 +4,13 @@ import Interest from './Interest';
 
 import '../styles/MyInterestList.css';
 
-import ArquitectureImage from '../resources/Arquitecture.svg';
-import UrbanismImage from '../resources/Urbanism.svg';
-import EnvironmentImage from '../resources/Environment.svg';
+import ArquitectureImage from '../../resources/Arquitecture.svg';
+import UrbanismImage from '../../resources/Urbanism.svg';
+import EnvironmentImage from '../../resources/Environment.svg';
 
-import PhotoImage from '../resources/Photo.svg';
-import ARImage from '../resources/AR.svg';
-import Printing3DImage from '../resources/3D.svg';
+import PhotoImage from '../../resources/Photo.svg';
+import ARImage from '../../resources/AR.svg';
+import Printing3DImage from '../../resources/3D.svg';
 
 class MyInterestList extends Component {
   render() {

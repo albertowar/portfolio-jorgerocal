@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import MediaQuery from 'react-responsive';
 import Logo from './Logo';
 import NavigationBar from './NavigationBar';
 import '../styles/BrandingBar.css';
@@ -10,9 +9,7 @@ class BrandingBar extends Component {
       <div className='StickyBrandingBarContainer'>
         <div className='BrandingBarContainer'>
           <div className='BrandingBar'>
-            <MediaQuery query="(min-width: 800px)">
-              <Logo />
-            </MediaQuery>
+            <Logo />
             <NavigationBar />
           </div>
           <hr />
