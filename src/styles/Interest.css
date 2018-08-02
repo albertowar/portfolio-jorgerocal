@@ -1,0 +1,23 @@
+.InterestContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+  margin-right: 80px;
+  margin-bottom: 20px;
+}
+
+.InterestImage {
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+}
+
+.InterestTitle {
+  margin: 10px 0px 0px 0px;
+}
+
+.InterestDescription {
+  font-style: italic;
+}

@@ -2,20 +2,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 30px 70px;
+  margin: 0px 70px;
 }
 
 .ProjectImageContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  filter: opacity(50%);
+  filter: opacity(100%);
   transition: filter 0.3s ease-in-out;
   cursor: pointer;
 }
 
 .ProjectImageContainer:hover {
-  filter: opacity(100%);
+  filter: opacity(50%);
 }
 
 .ProjectImage {
@@ -23,4 +23,8 @@
   height: 150px;
   object-fit: cover;
   margin-top: 10px;
+}
+
+.ProjectTitle {
+  margin: 0px 0px 0px 0px;
 }
