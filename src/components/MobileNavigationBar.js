@@ -2,25 +2,35 @@ import React, { Component } from 'react';
 import Scrollchor from 'react-scrollchor';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import '../styles/MoibleNavigationBar.css';
+import '../styles/MobileNavigationBar.css';
 
-class MoibleNavigationBar extends Component {
+class MobileNavigationBar extends Component {
+  constructor() {
+    super();
+    this.state = {
+      visible: false
+    };
+  }
+
   render() {
     return (
-      <div className='MoibleNavigationBarContainer'>
-        <FontAwesomeIcon icon={['fa', 'bars']} size='2x' />
-        <div className='CollapsableMenu'>
-          <nav>
-            <Scrollchor to="intro" className="NavigationLink">HOME</Scrollchor>
-            <Scrollchor to="about" className="NavigationLink">SOBRE MÍ</Scrollchor>
-            <Scrollchor to="interest" className="NavigationLink">MIS INTERESES</Scrollchor>
-            <Scrollchor to="projects" className="NavigationLink">PROYECTOS</Scrollchor>
-            <Scrollchor to="contact" className="NavigationLink">CONTACTO</Scrollchor>
-          </nav>
-        </div>
+      <div className='MobileNavigationBarContainer'>
+        {
+          !this.state.visible && <FontAwesomeIcon icon={['fa', 'bars']} size='2x' onClick={() => this.setState({ visible: true })} />
+        }
+        {
+          this.state.visible &&
+          <div className='MobileNavigationBar'>
+            <Scrollchor to="intro" className="MobileNavigationLink" beforeAnimate={() => this.setState({ visible: false })}>HOME</Scrollchor>
+            <Scrollchor to="about" className="MobileNavigationLink" beforeAnimate={() => this.setState({ visible: false })}>SOBRE MÍ</Scrollchor>
+            <Scrollchor to="interest" className="MobileNavigationLink" beforeAnimate={() => this.setState({ visible: false })}>MIS INTERESES</Scrollchor>
+            <Scrollchor to="projects" className="MobileNavigationLink" beforeAnimate={() => this.setState({ visible: false })}>PROYECTOS</Scrollchor>
+            <Scrollchor to="contact" className="MobileNavigationLink" beforeAnimate={() => this.setState({ visible: false })}>CONTACTO</Scrollchor>
+          </div>
+        }
       </div>
     );
   }
 }
 
-export default MoibleNavigationBar;
+export default MobileNavigationBar;
