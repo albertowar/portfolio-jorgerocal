@@ -3,7 +3,7 @@ import Lightbox from 'react-image-lightbox';
 
 import '../styles/Project.css';
 
-class Project extends Component {
+class PortfolioProject extends Component {
   constructor(props) {
     super(props);
 
@@ -54,4 +54,4 @@ class Project extends Component {
   }
 }
 
-export default Project;
+export default PortfolioProject;
