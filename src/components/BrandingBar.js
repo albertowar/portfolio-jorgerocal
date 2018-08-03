@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import MediaQuery from 'react-responsive';
+
 import Logo from './Logo';
 import NavigationBar from './NavigationBar';
+import MobileNavigationBar from './MobileNavigationBar';
 import '../styles/BrandingBar.css';
 
 class BrandingBar extends Component {
@@ -10,7 +13,12 @@ class BrandingBar extends Component {
         <div className='BrandingBarContainer'>
           <div className='BrandingBar'>
             <Logo />
-            <NavigationBar />
+            <MediaQuery query="(min-width: 980px)">
+              <NavigationBar />
+            </MediaQuery>
+            <MediaQuery query="(max-width: 979px)">
+              <MobileNavigationBar />
+            </MediaQuery>
           </div>
           <hr />
         </div>

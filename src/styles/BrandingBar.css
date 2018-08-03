@@ -2,7 +2,7 @@ hr {
   color: black;
   background-color: black;
   width: 100%;
-  margin: 0px
+  margin: 0px;
 }
 
 .StickyBrandingBarContainer {
@@ -11,9 +11,20 @@ hr {
   left: 0;
   margin: auto;
   width: 100vw;
-  height: 105px;
   z-index: 1030;
   background-color: white;
+}
+
+@media screen and (max-width: 500px) { /* Mobile */
+  .StickyBrandingBarContainer {
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 980px) { /* Desktop */
+  .StickyBrandingBarContainer {
+    height: 105px;
+  }
 }
 
 .BrandingBarContainer {
@@ -23,8 +34,12 @@ hr {
 }
 
 .BrandingBar {
-  width: 55%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+}
+
+@media screen and (min-width: 980px) { /* Desktop */
+  .BrandingBar {
+    width: 50%;
+  }
 }

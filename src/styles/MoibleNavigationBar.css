@@ -1,0 +1,12 @@
+.MoibleNavigationBarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.CollapsableMenu {
+  max-height: 0px;
+  max-width: 0px;
+  overflow: hidden;
+}

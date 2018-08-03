@@ -8,11 +8,12 @@ import registerServiceWorker from './registerServiceWorker';
 // Importing FontAwsome for Social Network icons
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 // Importing singleton styles for Image Preview
 import 'react-image-lightbox/style.css';
 
-library.add(fab);
+library.add(fab, faBars);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

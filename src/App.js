@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import MediaQuery from 'react-responsive';
 
 import BrandingBar from './components/BrandingBar';
 import Footer from './components/Footer';
@@ -15,17 +14,15 @@ class App extends Component {
   render() {
     return (
       <div className="AppContainer">
-        <MediaQuery minDeviceWidth={1200}>
-            <BrandingBar />
-            <div className='InfoContainer'>
-              <Introduction />
-              <AboutMe />
-              <MyInterestList />
-              <ProjectList />
-              <Contact />
-            </div>
-            <Footer />
-        </MediaQuery>
+        <BrandingBar />
+        <div className='InfoContainer'>
+          <Introduction />
+          <AboutMe />
+          <MyInterestList />
+          <ProjectList />
+          <Contact />
+        </div>
+        <Footer />
       </div>
     );
   }

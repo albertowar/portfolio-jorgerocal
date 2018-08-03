@@ -5,20 +5,25 @@ html {
 
 body {
   height: 100%;
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  font-family: sans-serif;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: -30px;
-  bottom: 0;
-  padding-right: 15px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+@media screen and (min-width: 980px) { /* Desktop */
+  body {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: -30px;
+    bottom: 0;
+    padding-right: 15px;
+  }
 }
 
 .AppContainer {
