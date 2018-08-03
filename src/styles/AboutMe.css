@@ -8,17 +8,37 @@
 
 .AboutMe {
   display: flex;
-  flex-direction: row;
-  align-self: flex-start;
   max-width: 900px;
   font-style: italic;
   text-align: center;
+  align-items: center;
 }
 
 .ProfileImage {
   border-radius: 50%;
   border: 5px solid black;
-  width: 20%;
-  height: 20%;
-  margin: 10px 0px 0px 30px
+}
+
+@media screen and (max-width: 500px) { /* Mobile */
+  .AboutMe {
+    flex-direction: column-reverse;
+  }
+
+  .ProfileImage {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 980px) { /* Desktop */
+  .AboutMe {
+    flex-direction: row;
+  }
+
+  .ProfileImage {
+    width: 20%;
+    height: 20%;
+    margin: 10px 0px 0px 30px;
+  }
 }
