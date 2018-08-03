@@ -19,7 +19,7 @@ import Printing3DImage from '../resources/3D.svg';
 class MyInterestList extends Component {
   render() {
     return (
-      <div id='interest' className='SectionContainer'>
+      <div id='interest' className='SectionContainer MyInterestListContainer'>
         <SectionHeader name='Mis intereses' />
         <MediaQuery query="(min-width: 980px)">
           <div className='InterestRow'>
