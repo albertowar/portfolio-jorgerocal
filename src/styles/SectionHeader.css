@@ -5,13 +5,13 @@
   padding: 0px 30px 10px 30px;
 }
 
-@media screen and (min-width: 980px) { /* Desktop */
+@media screen and (min-width: 1200px) { /* Desktop */
   .SectionHeaderContainer {
     margin: 0px 0px 50px 0px;
   }
 }
 
-@media screen and (max-width: 500px) { /* Mobile */
+@media screen and (max-width: 1199px) { /* Mobile */
   .SectionHeaderContainer {
     margin: 0px 0px 20px 0px;
   }

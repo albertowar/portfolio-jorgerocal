@@ -21,7 +21,7 @@ class MyInterestList extends Component {
     return (
       <div id='interest' className='SectionContainer MyInterestListContainer'>
         <SectionHeader name='Mis intereses' />
-        <MediaQuery query="(min-width: 980px)">
+        <MediaQuery query="(min-width: 1200px)">
           <div className='InterestRow'>
             <Interest image={ArquitectureImage} title='ARQUITECTURA' description='La Arquitectura y el diseño son esenciales para el desarrollo personal y humano' />
             <Interest image={UrbanismImage} title='URBANISMO' description='Como disciplina para el crecimiento sostenible de las ciudades' />
@@ -35,7 +35,7 @@ class MyInterestList extends Component {
             <Interest image={Printing3DImage} title='IMPRESIÓN 3D' description='La impresión 3D es una revolución tanto para maquetación, como para la construcción y veo necesaria su integración en futuros proyectos' />
           </div>
         </MediaQuery>
-        <MediaQuery query="(max-width: 500px)">
+        <MediaQuery query="(max-width: 1199px)">
           <div className='InterestColumn'>
             <Interest image={ArquitectureImage} title='ARQUITECTURA' description='La Arquitectura y el diseño son esenciales para el desarrollo personal y humano' />
             <Interest image={UrbanismImage} title='URBANISMO' description='Como disciplina para el crecimiento sostenible de las ciudades' />

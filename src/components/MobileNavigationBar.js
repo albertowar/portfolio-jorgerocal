@@ -24,7 +24,7 @@ class MobileNavigationBar extends Component {
             <Scrollchor to="intro" className="MobileNavigationLink" beforeAnimate={() => this.setState({ visible: false })}>HOME</Scrollchor>
             <Scrollchor to="about" className="MobileNavigationLink" beforeAnimate={() => this.setState({ visible: false })}>SOBRE MÍ</Scrollchor>
             <Scrollchor to="interest" className="MobileNavigationLink" beforeAnimate={() => this.setState({ visible: false })}>MIS INTERESES</Scrollchor>
-            <Scrollchor to="projects" className="MobileNavigationLink" beforeAnimate={() => this.setState({ visible: false })}>PROYECTOS</Scrollchor>
+            <Scrollchor to="projects" className="MobileNavigationLink" beforeAnimate={() => this.setState({ visible: false })}>PORTFOLIO</Scrollchor>
             <Scrollchor to="contact" className="MobileNavigationLink" beforeAnimate={() => this.setState({ visible: false })}>CONTACTO</Scrollchor>
           </div>
         }

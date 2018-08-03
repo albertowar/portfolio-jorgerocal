@@ -24,10 +24,8 @@ class PortfolioProject extends Component {
     return (
       <div>
         <div className='ProjectContainer'>
-          <h4 className='ProjectTitle Title'>{this.props.title}</h4>
           <div className='ProjectImageContainer' onClick={() => this.setState({ isOpen: true })}>
             <img src={this.props.top} className='ProjectImage' alt={`${this.props.title} 1`} />
-            <img src={this.props.bottom} className='ProjectImage' alt={`${this.props.title} 2`} />
           </div>
         </div>
 

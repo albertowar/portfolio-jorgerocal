@@ -13,10 +13,10 @@ class BrandingBar extends Component {
         <div className='BrandingBarContainer'>
           <div className='BrandingBar'>
             <Logo />
-            <MediaQuery query="(min-width: 980px)">
+            <MediaQuery query="(min-width: 1200px)">
               <NavigationBar />
             </MediaQuery>
-            <MediaQuery query="(max-width: 500px)">
+            <MediaQuery query="(max-width: 1199px)">
               <MobileNavigationBar />
             </MediaQuery>
           </div>

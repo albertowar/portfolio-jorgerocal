@@ -10,7 +10,7 @@ class NavigationBar extends Component {
           <Scrollchor to="intro" className="NavigationLink">HOME</Scrollchor>
           <Scrollchor to="about" className="NavigationLink">SOBRE MÍ</Scrollchor>
           <Scrollchor to="interest" className="NavigationLink">MIS INTERESES</Scrollchor>
-          <Scrollchor to="projects" className="NavigationLink">PROYECTOS</Scrollchor>
+          <Scrollchor to="projects" className="NavigationLink">PORTFOLIO</Scrollchor>
           <Scrollchor to="contact" className="NavigationLink">CONTACTO</Scrollchor>
         </nav>
       </div>

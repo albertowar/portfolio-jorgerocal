@@ -28,7 +28,7 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 500px) { /* Mobile */
+@media screen and (max-width: 1199px) { /* Mobile */
   #Name {
     font-size: 120%;
   }
@@ -39,7 +39,7 @@
   }
 }
 
-@media screen and (min-width: 980px) { /* Desktop */
+@media screen and (min-width: 1200px) { /* Desktop */
   #Name {
     font-size: 150%;
   }

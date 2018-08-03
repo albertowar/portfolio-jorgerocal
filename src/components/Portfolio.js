@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import SectionHeader from './SectionHeader';
 import PortfolioProject from './PortfolioProject';
 
-import '../styles/ProjectList.css';
+import '../styles/Portfolio.css';
 
 import LagunillasImage1 from '../resources/lagunillas_1.jpg';
 import LagunillasImage2 from '../resources/lagunillas_2.jpg';

@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-@media screen and (min-width: 980px) { /* Desktop */
+@media screen and (min-width: 1200px) { /* Desktop */
   .InterestContainer {
     max-width: 200px;
     margin-right: 80px;
