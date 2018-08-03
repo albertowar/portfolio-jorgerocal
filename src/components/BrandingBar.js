@@ -16,7 +16,7 @@ class BrandingBar extends Component {
             <MediaQuery query="(min-width: 980px)">
               <NavigationBar />
             </MediaQuery>
-            <MediaQuery query="(max-width: 979px)">
+            <MediaQuery query="(max-width: 500px)">
               <MobileNavigationBar />
             </MediaQuery>
           </div>

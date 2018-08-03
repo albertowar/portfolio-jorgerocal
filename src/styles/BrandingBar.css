@@ -29,6 +29,7 @@ hr {
 @media screen and (min-width: 980px) { /* Desktop */
   .BrandingBar {
     width: 50%;
+    justify-content: space-between;
   }
 
   .StickyBrandingBarContainer {
@@ -37,6 +38,11 @@ hr {
 }
 
 @media screen and (max-width: 500px) { /* Mobile */
+  .BrandingBar {
+    width: 90%;
+    justify-content: space-between;
+  }
+
   .StickyBrandingBarContainer {
     height: 60px;
   }
