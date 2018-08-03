@@ -8,7 +8,7 @@ class AboutMe extends Component {
     return (
       <div id='about' className='AboutMeContainer'>
         <SectionHeader name='Sobre mí' />
-        <div className='AboutMe'>
+        <div className='AboutMe Text'>
           ¡Hola!
             <br /><br />
           Soy Jorge y, desde pequeño, estoy muy interesado la Arquitectura y cómo se diseñaban los edificios.

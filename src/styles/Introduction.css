@@ -15,8 +15,7 @@
   align-items: center;
   background-image: url('../resources/background.jpg');
   background-size: cover;
-  height: 80%;
-  width: 60%;
+  text-align: center;
 }
 
 .IntroductionHr {
@@ -24,4 +23,34 @@
   background-color: black;
   height: 2px;
   width: 50%;
+}
+
+#Name {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 500px) { /* Mobile */
+  #Name {
+    font-size: 120%;
+  }
+
+  .Introduction {
+    height: 35vh;
+    width: 85vw;
+  }
+}
+
+@media screen and (min-width: 980px) { /* Desktop */
+  #Name {
+    font-size: 150%;
+  }
+
+  #Currently, #Past {
+    font-size: 110%;
+  }
+
+  .Introduction {
+    height: 50vh;
+    width: 50vw;
+  }
 }

@@ -9,9 +9,9 @@ class Introduction extends Component {
       <div id='intro' className='IntroductionContainer'>
         <div className='Introduction'>
           <hr className='IntroductionHr' />
-          <h1>JORGE RODRÍGUEZ CALDADO</h1>
-          <h2>Estudiante de Grado de Arquitectura</h2>
-          <h2>Técnico Superior en Proyectos de Edificación</h2>
+          <p className='Title' id='Name'>JORGE RODRÍGUEZ CALDADO</p>
+          <p className='Text' id='Currently'>Estudiante de Grado de Arquitectura</p>
+          <p className='Text' id='Past'>Técnico Superior en Proyectos de Edificación</p>
           <hr className='IntroductionHr' />
         </div>
       </div>

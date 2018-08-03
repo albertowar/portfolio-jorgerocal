@@ -15,17 +15,6 @@ body {
     overflow-x: hidden;
 }
 
-@media screen and (min-width: 980px) { /* Desktop */
-  body {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: -30px;
-    bottom: 0;
-    padding-right: 15px;
-  }
-}
-
 .AppContainer {
   min-width: 100%;
   display: flex;
@@ -36,4 +25,33 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@font-face {
+  font-family: font_adam;
+  src: url('../resources/adam.otf');
+}
+
+.Title {
+  font-family: font_adam
+}
+
+@font-face {
+  font-family: font_aqua;
+  src: url('../resources/aqua.ttf');
+}
+
+.Text {
+  font-family: font_aqua
+}
+
+@media screen and (min-width: 980px) { /* Desktop */
+  body {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: -30px;
+    bottom: 0;
+    padding-right: 15px;
+  }
 }

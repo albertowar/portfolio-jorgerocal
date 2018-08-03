@@ -4,7 +4,7 @@ import '../styles/SectionHeader.css';
 class SectionHeader extends Component {
   render() {
     return (
-      <div className='SectionHeaderContainer'>
+      <div className='SectionHeaderContainer Title'>
         { this.props.name }
       </div>
     );

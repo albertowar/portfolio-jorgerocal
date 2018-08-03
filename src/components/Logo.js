@@ -8,7 +8,7 @@ class Logo extends Component {
     return (
       <div className='LogoContainer'>
         <img src={LogoImage} className='LogoImage' alt='Logo' />
-        <p id='LogoName'>
+        <p id='LogoName' className='Title'>
           JORGE<b>ROCAL</b>
         </p>
       </div>

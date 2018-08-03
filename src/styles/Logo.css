@@ -5,10 +5,22 @@
   align-items: center;
 }
 
-.LogoImage {
-  width: 60px;
+@media screen and (max-width: 500px) { /* Mobile */
+  .LogoImage {
+    width: 30px;
+  }
+
+  #LogoName {
+    font-size: 100%;
+  }
 }
 
-#LogoName {
-  font-size: 200%;
+@media screen and (min-width: 980px) { /* Desktop */
+  .LogoImage {
+    width: 60px;
+  }
+
+  #LogoName {
+    font-size: 200%;
+  }
 }
