@@ -14,7 +14,7 @@ import CiremImage2 from '../resources/cirem_2.jpg';
 class Portfolio extends Component {
   render() {
     return (
-      <div id='projects' className='EvenSectionContainer'>
+      <div id='projects' className='SectionContainer GreyBackground'>
         <SectionHeader name='Portfolio' />
         <div className='Projects'>
           <PortfolioProject title='BARRIO DE LAGUNILLAS' top={LagunillasImage1} bottom={LagunillasImage2} />

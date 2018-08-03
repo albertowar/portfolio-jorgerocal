@@ -6,7 +6,7 @@ import '../styles/Contact.css';
 class Contact extends Component {
   render() {
     return (
-      <div id='contact' className='OddSectionContainer'>
+      <div id='contact' className='SectionContainer'>
         <SectionHeader name='Contacto' />
       </div>
     );

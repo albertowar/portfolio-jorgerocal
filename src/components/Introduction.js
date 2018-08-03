@@ -6,7 +6,7 @@ class Introduction extends Component {
 
   render() {
     return (
-      <div id='intro' className='OddSectionContainer'>
+      <div id='intro' className='SectionContainer'>
         <div className='Introduction'>
           <hr className='IntroductionHr' />
           <p className='Title' id='Name'>JORGE RODRÍGUEZ CALDADO</p>
