@@ -15,7 +15,7 @@ import Printing3DImage from '../resources/3D.svg';
 class MyInterestList extends Component {
   render() {
     return (
-      <div id='interest' className='MyInterestListContainer'>
+      <div id='interest' className='OddSectionContainer'>
         <SectionHeader name='Mis intereses' />
 
         <div className='InterestRow'>

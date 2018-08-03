@@ -14,7 +14,7 @@ import CiremImage2 from '../resources/cirem_2.jpg';
 class ProjectList extends Component {
   render() {
     return (
-      <div id='projects' className='ProjectListContainer'>
+      <div id='projects' className='EvenSectionContainer'>
         <SectionHeader name='Proyectos' />
         <div className='Projects'>
           <Project title='BARRIO DE LAGUNILLAS' top={LagunillasImage1} bottom={LagunillasImage2} />

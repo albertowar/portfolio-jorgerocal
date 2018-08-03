@@ -6,7 +6,7 @@ import '../styles/AboutMe.css';
 class AboutMe extends Component {
   render() {
     return (
-      <div id='about' className='AboutMeContainer'>
+      <div id='about' className='EvenSectionContainer'>
         <SectionHeader name='Sobre mí' />
         <div className='AboutMe'>
           <div className='Text'>
