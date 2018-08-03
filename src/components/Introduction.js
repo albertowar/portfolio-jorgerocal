@@ -4,9 +4,8 @@ import '../styles/Introduction.css';
 class Introduction extends Component {
   render() {
     return (
-      <div className='IntroductionContainer'>
-        <div className='IntroductionImage' />
-        <div id='intro' className='Introduction' >
+      <div id='intro' className='IntroductionContainer'>
+        <div className='Introduction' >
           <hr className='IntroductionHr' />
           <h1>JORGE RODRÍGUEZ CALDADO</h1>
           <h2>Estudiante de Grado de Arquitectura</h2>

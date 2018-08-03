@@ -11,7 +11,7 @@ hr {
   left: 0;
   margin: auto;
   width: 100vw;
-  height: 80px;
+  height: 105px;
   z-index: 1030;
   background-color: white;
 }
@@ -19,7 +19,6 @@ hr {
 .BrandingBarContainer {
   display: flex;
   flex-direction: column;
-  height: 100%;
   align-items: center;
 }
 

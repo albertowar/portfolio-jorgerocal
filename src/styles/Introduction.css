@@ -5,16 +5,7 @@
   height: 100vh;
   justify-content: center;
   width: 100%;
-}
-
-.IntroductionImage {
-  background-size: cover;
-  background-image: url('../resources/background.jpg');
-  filter: blur(2px);
-  z-index: -1;
-  position: absolute;
-  height: 80%;
-  width: 60%;
+  padding-top: 20px;
 }
 
 .Introduction {
@@ -22,9 +13,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: 2;
-  height: 100%;
-  width: 100%;
+  background-image: url('../resources/background.jpg');
+  background-size: cover;
+  height: 80%;
+  width: 60%;
 }
 
 .IntroductionHr {
