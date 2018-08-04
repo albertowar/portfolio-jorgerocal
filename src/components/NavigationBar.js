@@ -1,21 +1,51 @@
 import React, { Component } from 'react';
+import MediaQuery from 'react-responsive';
 import Scrollchor from 'react-scrollchor';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import '../styles/NavigationBar.css';
 
-class NavigationBar extends Component {
+class DesktopNavigationBar extends Component {
+  constructor() {
+    super();
+    this.state = {
+      visible: false
+    };
+  }
+
+  navigation(mobile) {
+    return (
+      <nav className={mobile ? 'MobileNavigationBar' : ''}>
+        <Scrollchor to="intro" className="NavigationLink" beforeAnimate={() => mobile ? this.setState({ visible: false }) : {}}>HOME</Scrollchor>
+        <Scrollchor to="about" className="NavigationLink" beforeAnimate={() => mobile ? this.setState({ visible: false }) : {}}>SOBRE MÍ</Scrollchor>
+        <Scrollchor to="interest" className="NavigationLink" beforeAnimate={() => mobile ? this.setState({ visible: false }) : {}}>MIS INTERESES</Scrollchor>
+        <Scrollchor to="projects" className="NavigationLink" beforeAnimate={() => mobile ? this.setState({ visible: false }) : {}}>PORTFOLIO</Scrollchor>
+        <Scrollchor to="contact" className="NavigationLink" beforeAnimate={() => mobile ? this.setState({ visible: false }) : {}}>CONTACTO</Scrollchor>
+      </nav>
+    );
+  }
+
   render() {
     return (
       <div className='NavigationBarContainer'>
-        <nav>
-          <Scrollchor to="intro" className="NavigationLink">HOME</Scrollchor>
-          <Scrollchor to="about" className="NavigationLink">SOBRE MÍ</Scrollchor>
-          <Scrollchor to="interest" className="NavigationLink">MIS INTERESES</Scrollchor>
-          <Scrollchor to="projects" className="NavigationLink">PORTFOLIO</Scrollchor>
-          <Scrollchor to="contact" className="NavigationLink">CONTACTO</Scrollchor>
-        </nav>
+        <MediaQuery query="(min-width: 1200px)">
+          {
+            this.navigation(false)
+          }
+        </MediaQuery>
+        <MediaQuery query="(max-width: 1199px)">
+          {
+            !this.state.visible && <FontAwesomeIcon icon={['fa', 'bars']} size='2x' onClick={() => this.setState({ visible: true })} />
+          }
+          {
+            this.state.visible &&
+            this.navigation(true)
+          }
+        </MediaQuery>
       </div>
     );
   }
 }
 
-export default NavigationBar;
+export default DesktopNavigationBar;
