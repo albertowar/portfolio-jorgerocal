@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Lightbox from 'react-image-lightbox';
 
-import '../styles/Project.css';
+import './Project.css';
 
-class PortfolioProject extends Component {
+class Project extends Component {
   constructor(props) {
     super(props);
 
@@ -52,4 +52,4 @@ class PortfolioProject extends Component {
   }
 }
 
-export default PortfolioProject;
+export default Project;

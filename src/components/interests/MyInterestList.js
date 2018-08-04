@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
 
-import SectionHeader from './SectionHeader';
+import SectionHeader from '../util/SectionHeader';
 import Interest from './Interest';
 
-import '../styles/MyInterestList.css';
+import './MyInterestList.css';
 
-import ArquitectureImage from '../resources/Arquitecture.svg';
-import UrbanismImage from '../resources/urbanism.svg';
-import EnvironmentImage from '../resources/Environment.svg';
-import EnergyImage from '../resources/energy.svg';
+import ArquitectureImage from '../../resources/Arquitecture.svg';
+import UrbanismImage from '../../resources/urbanism.svg';
+import EnvironmentImage from '../../resources/Environment.svg';
+import EnergyImage from '../../resources/energy.svg';
 
-import PhotoImage from '../resources/Photo.svg';
-import SoftwareImage from '../resources/software.svg';
-import ARImage from '../resources/AR.svg';
-import Printing3DImage from '../resources/3D.svg';
+import PhotoImage from '../../resources/Photo.svg';
+import SoftwareImage from '../../resources/software.svg';
+import ARImage from '../../resources/AR.svg';
+import Printing3DImage from '../../resources/3D.svg';
 
 class MyInterestList extends Component {
   render() {

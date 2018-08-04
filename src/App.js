@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-import BrandingBar from './components/BrandingBar';
-import Footer from './components/Footer';
-import Introduction from './components/Introduction';
-import AboutMe from './components/AboutMe';
-import MyInterestList from './components/MyInterestList';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+import BrandingBar from './components/navigation/BrandingBar';
+import Footer from './components/footer/Footer';
+import Introduction from './components/introduction/Introduction';
+import AboutMe from './components/about_me/AboutMe';
+import MyInterestList from './components/interests/MyInterestList';
+import Portfolio from './components/portfolio/Portfolio';
+import Contact from './components/contact/Contact';
 
-import './styles/App.css';
+import './App.css';
 
 class App extends Component {
   render() {

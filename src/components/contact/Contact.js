@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import SectionHeader from './SectionHeader';
+import SectionHeader from '../util/SectionHeader';
 
-import '../styles/Contact.css';
+import './Contact.css';
 
 class Contact extends Component {
   render() {

@@ -4,7 +4,7 @@ import Scrollchor from 'react-scrollchor';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import '../styles/NavigationBar.css';
+import './NavigationBar.css';
 
 class DesktopNavigationBar extends Component {
   constructor() {

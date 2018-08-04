@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Logo from './Logo';
 import NavigationBar from './NavigationBar';
-import '../styles/BrandingBar.css';
+import './BrandingBar.css';
 
 class BrandingBar extends Component {
   render() {

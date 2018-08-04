@@ -42,7 +42,7 @@ body {
 
 @font-face {
   font-family: font_adam;
-  src: url('../resources/adam.otf');
+  src: url('./resources/adam.otf');
 }
 
 .Title {
@@ -51,7 +51,7 @@ body {
 
 @font-face {
   font-family: font_aqua;
-  src: url('../resources/aqua.ttf');
+  src: url('./resources/aqua.ttf');
 }
 
 .Text {

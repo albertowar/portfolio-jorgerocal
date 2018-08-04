@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import SectionHeader from './SectionHeader';
-import ProfileImage from '../resources/profile.jpg';
-import '../styles/AboutMe.css';
+import SectionHeader from '../util/SectionHeader';
+import ProfileImage from '../../resources/profile.jpg';
+import './AboutMe.css';
 
 class AboutMe extends Component {
   render() {

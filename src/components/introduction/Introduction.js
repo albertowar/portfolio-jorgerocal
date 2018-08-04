@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import '../styles/Introduction.css';
+import './Introduction.css';
 
 class Introduction extends Component {
 

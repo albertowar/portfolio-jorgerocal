@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SocialButton from './SocialButton';
 
-import '../styles/SocialNetworks.css';
+import './SocialNetworks.css';
 
 class SocialNetworks extends Component {
   render() {
