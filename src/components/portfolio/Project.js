@@ -14,35 +14,30 @@ class Project extends Component {
   }
 
   render() {
-    const images = [
-      this.props.top,
-      this.props.bottom
-    ];
-
     const { photoIndex, isOpen } = this.state;
 
     return (
       <div>
         <div className='ProjectContainer'>
           <div className='ProjectImageContainer' onClick={() => this.setState({ isOpen: true })}>
-            <img src={this.props.top} className='ProjectImage' alt={`${this.props.title} 1`} />
+            <img src={this.props.images[0]} className='ProjectImage' alt={`${this.props.title} 1`} />
           </div>
         </div>
 
         {isOpen && (
             <Lightbox
-              mainSrc={images[photoIndex]}
-              nextSrc={images[(photoIndex + 1) % images.length]}
-              prevSrc={images[(photoIndex + images.length - 1) % images.length]}
+              mainSrc={this.props.images[photoIndex]}
+              nextSrc={this.props.images[(photoIndex + 1) % this.props.images.length]}
+              prevSrc={this.props.images[(photoIndex + this.props.images.length - 1) % this.props.images.length]}
               onCloseRequest={() => this.setState({ isOpen: false })}
               onMovePrevRequest={() =>
                 this.setState({
-                  photoIndex: (photoIndex + images.length - 1) % images.length,
+                  photoIndex: (photoIndex + this.props.images.length - 1) % this.props.images.length,
                 })
               }
               onMoveNextRequest={() =>
                 this.setState({
-                  photoIndex: (photoIndex + 1) % images.length,
+                  photoIndex: (photoIndex + 1) % this.props.images.length,
                 })
               }
             />

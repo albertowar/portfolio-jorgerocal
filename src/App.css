@@ -3,16 +3,22 @@ html {
   overflow: hidden;
 }
 
+@font-face {
+  font-family: font_adam;
+  src: url('./resources/fonts/adam.otf');
+}
+
 body {
   height: 100%;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-family: sans-serif;
-    overflow-y: scroll;
-    overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: font_adam;
+  margin: 0px auto;
+  padding: 0px auto;
 }
 
 .AppContainer {
@@ -40,24 +46,19 @@ body {
   background-color: #f0f0f0;
 }
 
-@font-face {
-  font-family: font_adam;
-  src: url('./resources/adam.otf');
-}
-
 .Title {
-  font-family: font_adam;
   font-size: 175%;
   letter-spacing: 3px;
 }
 
-@font-face {
-  font-family: font_aqua;
-  src: url('./resources/aqua.ttf');
+.Row {
+  display: flex;
+  flex-direction: row;
 }
 
-.Text {
-  font-family: font_aqua;
+.Column {
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 1200px) { /* Desktop */
@@ -68,5 +69,15 @@ body {
     right: -30px;
     bottom: 0;
     padding-right: 15px;
+  }
+
+  .SectionContainer {
+    margin: 100px 0px 100px 0px;
+  }
+}
+
+@media screen and (max-width: 1199px) { /* Mobile */
+  .SectionContainer {
+    margin: 20px 0px 20px 0px;
   }
 }

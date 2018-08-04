@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import SectionHeader from '../util/SectionHeader';
 
-import './Contact.css';
+import './ContactSection.css';
 
-class Contact extends Component {
+class ContactSection extends Component {
   render() {
     return (
-      <div id='contact' className='SectionContainer'>
+      <div id='contact' className='SectionContainer GreyBackground'>
         <SectionHeader name='Contacto' />
       </div>
     );
   }
 }
 
-export default Contact;
+export default ContactSection;

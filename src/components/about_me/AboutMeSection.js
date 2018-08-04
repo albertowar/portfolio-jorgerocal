@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import SectionHeader from '../util/SectionHeader';
 import ProfileImage from '../../resources/profile.jpg';
-import './AboutMe.css';
+import './AboutMeSection.css';
 
-class AboutMe extends Component {
+class AboutMeSection extends Component {
   render() {
     return (
       <div id='about' className='SectionContainer GreyBackground'>
         <SectionHeader name='Sobre mí' />
         <div className='AboutMe'>
-          <div className='Text'>
+          <div>
             ¡Hola!
             <br /><br />
             Soy Jorge y, desde pequeño, estoy muy interesado la Arquitectura y cómo se diseñaban los edificios.
@@ -25,4 +25,4 @@ class AboutMe extends Component {
   }
 }
 
-export default AboutMe;
+export default AboutMeSection;

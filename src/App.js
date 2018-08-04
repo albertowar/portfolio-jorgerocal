@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 
 import BrandingBar from './components/navigation/BrandingBar';
 import Footer from './components/footer/Footer';
-import Introduction from './components/introduction/Introduction';
-import AboutMe from './components/about_me/AboutMe';
-import MyInterestList from './components/interests/MyInterestList';
-import Portfolio from './components/portfolio/Portfolio';
-import Contact from './components/contact/Contact';
+import IntroductionSection from './components/introduction/IntroductionSection';
+import AboutMeSection from './components/about_me/AboutMeSection';
+import InterestSection from './components/interests/InterestSection';
+import PortfolioSection from './components/portfolio/PortfolioSection';
+import SkillSection from './components/skills/SkillSection';
+import ContactSection from './components/contact/ContactSection';
 
 import './App.css';
 
@@ -16,11 +17,12 @@ class App extends Component {
       <div className="AppContainer">
         <BrandingBar />
         <div className='InfoContainer'>
-          <Introduction />
-          <AboutMe />
-          <MyInterestList />
-          <Portfolio />
-          <Contact />
+          <IntroductionSection />
+          <AboutMeSection />
+          <InterestSection />
+          <PortfolioSection />
+          <SkillSection />
+          <ContactSection />
         </div>
         <Footer />
       </div>

@@ -1,0 +1,9 @@
+.InterestColumn {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.InterestSectionContainer {
+  margin: 100px 0px 100px 0px;
+}
