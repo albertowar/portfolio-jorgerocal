@@ -19,7 +19,7 @@ class DesktopNavigationBar extends Component {
       <nav className={mobile ? 'MobileNavigationBar' : ''}>
         <Scrollchor to="intro" className="NavigationLink" beforeAnimate={() => mobile ? this.setState({ visible: false }) : {}}>HOME</Scrollchor>
         <Scrollchor to="about" className="NavigationLink" beforeAnimate={() => mobile ? this.setState({ visible: false }) : {}}>SOBRE MÍ</Scrollchor>
-        <Scrollchor to="interest" className="NavigationLink" beforeAnimate={() => mobile ? this.setState({ visible: false }) : {}}>MIS INTERESES</Scrollchor>
+        <Scrollchor to="interest" className="NavigationLink" beforeAnimate={() => mobile ? this.setState({ visible: false }) : {}}>INTERESES</Scrollchor>
         <Scrollchor to="projects" className="NavigationLink" beforeAnimate={() => mobile ? this.setState({ visible: false }) : {}}>PORTFOLIO</Scrollchor>
         <Scrollchor to="contact" className="NavigationLink" beforeAnimate={() => mobile ? this.setState({ visible: false }) : {}}>CONTACTO</Scrollchor>
       </nav>

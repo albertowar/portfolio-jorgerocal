@@ -46,7 +46,9 @@ body {
 }
 
 .Title {
-  font-family: font_adam
+  font-family: font_adam;
+  font-size: 175%;
+  letter-spacing: 3px;
 }
 
 @font-face {
@@ -55,7 +57,7 @@ body {
 }
 
 .Text {
-  font-family: font_aqua
+  font-family: font_aqua;
 }
 
 @media screen and (min-width: 1200px) { /* Desktop */

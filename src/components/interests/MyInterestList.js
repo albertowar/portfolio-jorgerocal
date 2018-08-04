@@ -20,7 +20,7 @@ class MyInterestList extends Component {
   render() {
     return (
       <div id='interest' className='SectionContainer MyInterestListContainer'>
-        <SectionHeader name='Mis intereses' />
+        <SectionHeader name='Intereses' />
         <MediaQuery query="(min-width: 1200px)">
           <div className='InterestRow'>
             <Interest image={ArquitectureImage} title='ARQUITECTURA' description='La Arquitectura y el diseño son esenciales para el desarrollo personal y humano' />
