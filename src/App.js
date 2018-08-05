@@ -7,7 +7,6 @@ import AboutMeSection from './components/about_me/AboutMeSection';
 import InterestSection from './components/interests/InterestSection';
 import PortfolioSection from './components/portfolio/PortfolioSection';
 import SkillSection from './components/skills/SkillSection';
-import ContactSection from './components/contact/ContactSection';
 
 import './App.css';
 
@@ -22,7 +21,6 @@ class App extends Component {
           <InterestSection />
           <PortfolioSection />
           <SkillSection />
-          <ContactSection />
         </div>
         <Footer />
       </div>

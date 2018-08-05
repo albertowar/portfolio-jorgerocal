@@ -11,10 +11,12 @@ class SocialButton extends React.Component {
       padding: this.props.padding ? this.props.padding : '10px 10px 10px 10px'
     };
 
+    const icon = this.props.prefix ? [this.props.prefix, this.props.icon] : this.props.icon;
+
     return (
       <div className='SocialButtonContainer'>
         <a href={this.props.link}>
-          <FontAwesomeIcon icon={['fab', this.props.icon]} size={this.props.size ? this.props.size : '1x'} style={ iconStyle } />
+          <FontAwesomeIcon icon={icon} size={this.props.size ? this.props.size : '1x'} style={ iconStyle } />
         </a>
       </div>
     );
