@@ -1,18 +1,18 @@
 .IntroductionContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  justify-content: center;
-  width: 100%;
+  position: relative;
+}
+
+.BackgroundImage {
+  object-fit: cover;
+  position: relative;
 }
 
 .Introduction {
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('../../resources/background.jpg');
   background-size: cover;
   text-align: center;
 }
@@ -33,7 +33,7 @@
     font-size: 120%;
   }
 
-  .Introduction {
+  .Introduction, .BackgroundImage {
     height: 35vh;
     width: 85vw;
   }
@@ -49,7 +49,7 @@
     font-size: 110%;
   }
 
-  .Introduction {
+  .Introduction, .BackgroundImage {
     height: 50vh;
     width: 50vw;
   }
