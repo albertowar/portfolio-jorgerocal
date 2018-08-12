@@ -2,9 +2,8 @@
   position: relative;
 }
 
-.BackgroundImage {
-  object-fit: cover;
-  position: relative;
+.BackgroundImageContainer {
+  background-color: #CFD8DC;
 }
 
 .Introduction {
@@ -33,7 +32,7 @@
     font-size: 120%;
   }
 
-  .Introduction, .BackgroundImage {
+  .Introduction, .BackgroundImageContainer {
     height: 35vh;
     width: 85vw;
   }
@@ -49,7 +48,7 @@
     font-size: 110%;
   }
 
-  .Introduction, .BackgroundImage {
+  .Introduction, .BackgroundImageContainer {
     height: 50vh;
     width: 50vw;
   }

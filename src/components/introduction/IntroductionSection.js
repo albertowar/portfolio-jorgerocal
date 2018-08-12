@@ -5,11 +5,31 @@ import BackgroundImage from '../../resources/background.jpg';
 import './IntroductionSection.css';
 
 class IntroductionSection extends Component {
+  constructor() {
+    super();
+    this.state = {
+      backgroundImageStyle: {
+        objectFit: 'cover',
+        position: 'relative',
+        width: '100%',
+        height: '100%',
+        visibility: 'hidden'
+      }
+    };
+  }
+
+  onBackgroundImageLoad() {
+    const newBackgroundImageStyle = Object.assign({}, this.state.backgroundImageStyle);
+    newBackgroundImageStyle.visibility = 'visible';
+    this.setState({ backgroundImageStyle: newBackgroundImageStyle });
+  }
 
   render() {
     return (
       <div id='intro' className='SectionContainer IntroductionContainer'>
-        <img className='BackgroundImage' src={BackgroundImage} alt='background' />
+        <div className='BackgroundImageContainer'>
+          <img src={BackgroundImage} style={this.state.backgroundImageStyle} onLoad={this.onBackgroundImageLoad.bind(this)} alt='background' />
+        </div>
         <div className='Introduction'>
           <hr className='IntroductionHr' />
           <p id='Name'>JORGE RODRÍGUEZ CALDADO</p>
